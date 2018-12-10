@@ -1,0 +1,58 @@
+#painting{
+    position: absolute;
+    height: 650px;
+    width: 540px;
+    cursor:url(can-cursor.png), auto;
+    /* https://stackoverflow.com/questions/18551277/using-external-images-for-css-custom-cursors */
+}
+
+#frame{
+    position: relative;
+    height: 900px;
+    width: 900px;
+    z-index: 1;
+}
+
+.painting-container{
+    position: relative;
+    top: 50px;
+    /* background-color: grey; */
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    cursor:url(public/can-cursor.png), auto;
+}
+
+img {
+    user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+
+    /* https://stackoverflow.com/questions/12906789/preventing-an-image-from-being-draggable-or-selectable-without-using-js */
+}
+
+
+.canvas{
+    height: 1300px;
+    position: absolute;
+    z-index: 7;
+    opacity: 1
+}
+
+#canvas{
+    height: 1300px;
+    position: absolute;
+    z-index: 5;
+    opacity: .7
+}
+
+#canvas3{
+    position: absolute;
+    height: 1300px;
+    z-index: 6;
+    opacity: .8
+}
