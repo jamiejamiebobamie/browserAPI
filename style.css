@@ -13,9 +13,12 @@
     z-index: 1;
 }
 
-.painting-container, canvas{
+.painting-container{
+    position: relative;
+    top: 50px;
     /* background-color: grey; */
     display: flex;
+    flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     cursor:url(public/can-cursor.png), auto;
@@ -33,21 +36,23 @@ img {
 }
 
 
-body{
-    /* background-color: yellow; */
-}
-
 .canvas{
-    height: 900px;
+    height: 1300px;
     position: absolute;
     z-index: 7;
-    opacity: .9
+    opacity: 1
 }
 
 #canvas{
-    /* background-color: yellow; */
     height: 1300px;
     position: absolute;
     z-index: 5;
     opacity: .7
+}
+
+#canvas3{
+    position: absolute;
+    height: 1300px;
+    z-index: 6;
+    opacity: 1
 }
