@@ -1,0 +1,20 @@
+{
+  "name": "browserapi",
+  "version": "1.0.0",
+  "description": "Chosen Web API: Canvas",
+  "main": "script-spray.js",
+  "scripts": {
+     "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamiejamiebobamie/browserAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamiejamiebobamie/browserAPI/issues"
+  },
+  "homepage": "https://github.com/jamiejamiebobamie/browserAPI#readme"
+}
